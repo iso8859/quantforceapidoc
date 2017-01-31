@@ -18,7 +18,7 @@ You'll find the subscription key in you user account details.
 
 `subscription-key: <Your subscription key>`
 
-Content type could be json or XML. You set it using the header 
+Content type could be json or XML. You set it using the header
 
 ```
 Content-Type: application/json
@@ -29,6 +29,16 @@ or
 ```
 Content-Type: application/XML
 ```
+
+## Hierarchy
+
+The concept is quite simple.
+
+From your account you can create as many qfAccount as you want. A qfAccount represent your customer account.
+
+From a qfAccount you can create as many project as you want. A project represent a full data workflow.
+
+From a project you can create as many node as you want. A node can do a operation on data.
 
 
 
