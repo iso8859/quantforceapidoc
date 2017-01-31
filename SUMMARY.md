@@ -2,7 +2,7 @@
 
 ## Overview
 
-* [Quantforce API](README.md)
+* [How to call Quantforce API](README.md)
 
 ## Methods
 
