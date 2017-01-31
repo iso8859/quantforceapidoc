@@ -6,5 +6,7 @@
 
 ## Methods
 
-* [Defining Methods](methods.md)
+* [Accounts](methods.md)
+* [qfAccounts](qfaccounts.md)
+* Projects
 

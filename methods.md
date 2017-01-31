@@ -1,6 +1,6 @@
-# Defining Methods
+# Accounts
 
-Methods allow you to smoothly display code examples in different languages.
+This is account management API
 
 {% method %}
 ## My first method
