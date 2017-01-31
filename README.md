@@ -4,6 +4,18 @@
 
 Quantforce is a solution to build and use predictive model
 
+## Hierarchy
+
+The concept is quite simple.
+
+From your account you can create as many qfAccount as you want. A qfAccount represent your customer account.
+
+From a qfAccount you can create as many project as you want. A project represent a full data workflow.
+
+From a project you can create as many node as you want. A node can do a operation on data.
+
+
+
 ## How to call Quantforce API
 
 Every call to Quantforce API requires a subscription key. This key needs to be either passed through a query string parameter or specified in the request header.
@@ -30,17 +42,7 @@ or
 Content-Type: application/XML
 ```
 
-## Hierarchy
-
-The concept is quite simple.
-
-From your account you can create as many qfAccount as you want. A qfAccount represent your customer account.
-
-From a qfAccount you can create as many project as you want. A project represent a full data workflow.
-
-From a project you can create as many node as you want. A node can do a operation on data.
-
-
+## 
 
 
 
