@@ -8,5 +8,5 @@
 
 * [Accounts](methods.md)
 * [qfAccounts](qfaccounts.md)
-* Projects
+* [Projects](projects.md)
 
