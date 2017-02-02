@@ -7,6 +7,5 @@
 ## Methods
 
 * [Accounts](methods.md)
-* [qfAccounts](qfaccounts.md)
 * [Projects](projects.md)
 
