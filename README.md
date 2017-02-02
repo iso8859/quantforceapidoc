@@ -38,11 +38,32 @@ Content-Type: application/json
 
 or
 
-```
+```asciidoc
 Content-Type: application/xml
 ```
 
-## 
+For example
+
+```asciidoc
+HEADER
+Accept: application/xml
+subscription-key: KRJQ8-RQ822-YRMXF-6TTXC-HD2VM
+
+BODY
+<?xml version="1.0"?>
+<AccountModel>
+  <_id>1</_id>
+  <mail>string</mail>
+  <subscriptionKey>string</subscriptionKey>
+</AccountModel>
+
+ANSWER
+<AccountModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <_id>1</_id>
+  <mail>info@quantforce.net</mail>
+  <subscriptionKey>KRJQ8-RQ822-YRMXF-6TTXC-HD2VM</subscriptionKey>
+</AccountModel>
+```
 
 
 
