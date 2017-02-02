@@ -2,7 +2,7 @@
 
 This is account management API
 
-[http://api.quantforce.net/swagger/index.html\#/Account](http://api.quantforce.net/swagger/index.html#/Account)
+[http://api-new.quantforce.net/swagger/index.html](http://api-new.quantforce.net/swagger/index.html)
 
 You can list/create/update accounts
 
