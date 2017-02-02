@@ -2,33 +2,9 @@
 
 This is account management API
 
+[http://api.quantforce.net/swagger/index.html\#/Account](http://api.quantforce.net/swagger/index.html#/Account)
+
+You can list/create/update accounts
 
 
-GET /api/v1.0/account
-
-Return all qfAccount id you have
-
-
-
-GET /api/v1.0/account/id
-
-Return a specific qfAccount
-
-
-
-POST /api/v1.0/account
-
-Create a qfAccount
-
-
-
-PUT /api/v1.0/account/id
-
-Update a qfAccount
-
-
-
-DELETE /api/v1.0/account/id
-
-Delete a qfAccount
 
