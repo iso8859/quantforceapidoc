@@ -39,7 +39,7 @@ Content-Type: application/json
 or
 
 ```
-Content-Type: application/XML
+Content-Type: application/xml
 ```
 
 ## 
