@@ -8,4 +8,5 @@
 
 * [Accounts](methods.md)
 * [Projects](projects.md)
+* [Data](data.md)
 

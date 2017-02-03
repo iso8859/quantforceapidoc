@@ -4,9 +4,11 @@
 
 Quantforce is a solution to build and use predictive model
 
-
-
 ### _This is primarily documentation_
+
+# Servers
+
+You can use QuantFroce servers. You can also ask for a on premises version to be sure your data doesn't get out from your company \(Windows Server\).
 
 ## Hierarchy
 
