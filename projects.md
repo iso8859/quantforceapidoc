@@ -2,13 +2,9 @@
 
 Projects API allow you to manage projects
 
-GET /api/v1.0/project
+A project is all necessary steps to get a predictive model.
 
-Get all projects ids
+## QuantQollect
 
-GET /api/v1.0/project/id
-
-Get a specific project
-
-
+QuantQollect is a special kind of project. It act as a wizard and allow you minimalist settings to get a quick result.
 

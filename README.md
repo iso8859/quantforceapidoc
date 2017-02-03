@@ -6,7 +6,15 @@ Quantforce is a solution to build and use predictive model
 
 ### _This is primarily documentation_
 
-# Servers
+## What is QuantForce?
+
+QuantForce is all the tools you need to create a predictive model from your data.
+
+See QuantForce web site for more infos
+
+[/www.quantforce.net](/www.quantforce.net)
+
+## Servers
 
 You can use QuantFroce servers. You can also ask for a on premises version to be sure your data doesn't get out from your company \(Windows Server\).
 
@@ -14,25 +22,21 @@ You can use QuantFroce servers. You can also ask for a on premises version to be
 
 The concept is quite simple.
 
-From your account you can create as many qfAccount as you want. A qfAccount represent your customer account.
+From your account you can create as many child account as you want. This way you can organise like you do with your customer. If a customer have a customer you can handle it.
 
-From a qfAccount you can create as many project as you want. A project represent a full data workflow.
+From an account you can create as many project as you want. A project represents a full data workflow.
 
-From a project you can create as many node as you want. A node can do a operation on data.
+From a project you can create as many node as you want. A node can do operation on data.
 
 ![](http://www.quantforce.net/wp-content/uploads/2017/01/API-Big-Picture.png)
 
 ## How to call Quantforce API
 
-Every call to Quantforce API requires a subscription key. This key needs to be either passed through a query string parameter or specified in the request header.
+Every call to Quantforce API requires a subscription key. This key needs to be either passed through the request header.
 
 You'll find the subscription key in you user account details.
 
-**1.**Passing the subscription key through a query string, see below as a Computer Vision API example:
-
-`https://api.quantforce.net/api/v1.0/qfaccount?subscription-key=<Your subscription key>`
-
-**2.**Passing the subscription key can also be specified in the HTTP request header:
+Passing the subscription key in the HTTP request header:
 
 `subscription-key: <Your subscription key>`
 
